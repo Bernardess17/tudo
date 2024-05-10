@@ -13,16 +13,21 @@ body {
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
   display: inline-block;
 }
-input[type="text"], input[type="password"] {
-  width: 80%;
+.container-text{
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+.input-text {
+  width: 74%;
   padding: 10px;
   margin: 10px 0;
   box-sizing: border-box;
   border: 1px solid #8a50dc;
   border-radius: 4px;
   background-color: #080c34; 
-  display: flex;
   margin-left: 0px;
+  color: white;
 
 }
 input[type="submit"] {
@@ -46,28 +51,35 @@ h2 {
   border-radius: 4px;
   cursor: pointer;
   display: block;
-  width: 300px;
-  padding-left: 50px;
+  width: 229px;
+  height: 19px;
+  padding-left: 51px;
   
 
 }
 .btn1 {
     display: flex;
-    margin-left: 234px;
+    margin-left: 220px;
     margin-top: -48px;
-    padding-top: 9px;
+    padding-top: 12px;
     height: 40px;
     background-color: #8a50dc;
     padding-inline: initial;
-    width: 66px;
-    padding-left: 5px;
+    width: 80px;
+    padding-left: 11px;
     border-radius: 3px;
     color: aliceblue;
+    border-radius: 5px
 }
 
 .input {
   color: aliceblue;
   display: flow-root;
   margin-left: 245px;
-  margin-top: -24px;
+  margin-top: -29px;
+}
+p {
+  margin-top: -1px;
+  margin-left: -60px;
+  text-align: center;
 }
